@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Pix2Pix 코드 실습과 설명!!!"
+---
+
 ```python
 from os import listdir
 from os.path import join
