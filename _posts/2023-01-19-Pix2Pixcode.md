@@ -50,15 +50,16 @@ pix2pix에 대해 간략하게 말하자면, 왼쪽사진이 입력으로 들어
 이미지는 위에서 본것처럼 입력과 출력형태의 이미지가 두 개가 붙어있는 형태이지만, 학습을 진행할때는 따로따로 봐야되므로 이미지를 네트워크에 넣기 위해 custom dataset을 정의해준다.  
 
 > <Dataset & Dataloader>
-> Dataset 은 샘플과 정답(label)을 저장하고, DataLoader 는 Dataset 을 샘플에 쉽게 접근할 수 있는 객체(iterable)로 감쌉니다.  
-
+> 
+> Dataset 은 샘플과 정답(label)을 저장하고, DataLoader 는 Dataset 을 샘플에 쉽게 접근할 수 있는 객체(iterable)로 감쌉니다.
+>
 > - Dataset : 전체 dataset을 구성하는 단계로 dataloader를 통해 data를 받아오는 역할을 합니다. 
-
+>
 >> <Dataset class에서 반드시 정의해야 하는 method 3가지>
-* init(self) : 필요한 변수 선언
-* get_item(self,index) : 만든 리스트의 index에 해당하는 샘플을 데이터셋에서 불러오고 전처리하여 tensor(배열, 행렬) 자료형으로 바꿔서 리턴
-* len(self) : 학습 데이터 개수 리턴  
-
+>>* init(self) : 필요한 변수 선언
+>>* get_item(self,index) : 만든 리스트의 index에 해당하는 샘플을 데이터셋에서 불러오고 전처리하여 tensor(배열, 행렬) 자료형으로 바꿔서 리턴
+>>* len(self) : 학습 데이터 개수 리턴  
+>
 > - Dataloader : dataset으로부터 dataloader를 생성한다. Dataloader는 Dataset을 batch 기반의 딥러닝모델 학습을 위해 미니배치 형태로 만들어 주는 기능을 하는데, Dataloader를 통해 Dataset의 전체 데이터가 batch size로 나누어져 공급됩니다.  
 
 
