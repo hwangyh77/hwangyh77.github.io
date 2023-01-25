@@ -390,7 +390,7 @@ print(out.shape)
 
 Discriminator는
 PatchGAN을 사용하므로 원하는 patch 사이즈인 16x16으로 만들기 위해 4개의 stage를 지나며 convolution 연산을 수행하여 16x16형태의 패치를 생성한다.
-코드의 stage1을 보면 입력 이미지가 2개이니깐 channel*2 형태이고, forward 함수를 보면 입력받는 이미지가 2개입니다. (입력 이미지가 2개라는 것은 2개의 이미지가 한쌍을 이루어 입력으로 들어온다는 것)
+코드의 stage1을 보면 입력 이미지가 2개이니깐 channel*2 형태이고, forward 함수를 보면 입력받는 이미지가 2개입니다. (입력 이미지가 2개라는 것은 2개의 이미지가 한쌍을 이루어 입력으로 들어온다는 것)  
 <font color='red'> stage를 거칠수록 채널수는 늘어나고 이미지의 높이와 너비는 반씩 줄어들게되어 stage4에서는 512 x 16 x 16형태가 되고 이를 self.patch를 통해 1 x 16 x 16으로(압축)만들어주게 되고 마지막으로 sigmoid를 취해 각 픽셀값을 sigmoid형태로 해줍니다.</font>
 
 
