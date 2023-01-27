@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "hwangyh77"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "공부하는거 정리하는 블로그 입니다."
+  location         : "South Korea"
   email            :
   links:
     - label: "Email"
@@ -295,9 +295,9 @@ defaults:
       
 # 내가 추가하는 author
 author:
-  name: "Your Name"
+  name: "hwangyh77"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person." # Note: Markdown is allowed
+  bio: "공부하는거 정리하는 블로그 입니다." # Note: Markdown is allowed
   location: "Somewhere"
   links:
     - label: "Twitter"
