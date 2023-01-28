@@ -11,7 +11,7 @@ categories:
  
  값을 변화시키는 함수를 h 로, 이미지를 F 라고 했을 때 Filtering 은 이미지 픽셀 값들에 h 를 적용하는 것이다. 예를 들어, h(x)=2x 라고 한다면 2 배가 밝아진 이미지가 되는 것이다. 이를 이미지 함수의 Range 를 변경한다고 표현. 그리고 Warping 은 좌표에 h 를 적용하는 것이기 때문에 똑같이 h(x)=2x 라면 반이 줄은 이미지가 된다. 이를 이미지 함수의 Domain 을 변경한다고 표현.  
  
- ## < Image Warping(2D Transformations) >  
+## < Image Warping(2D Transformations) >  
  
  ![image](https://user-images.githubusercontent.com/93988405/215250801-e93a7bd8-9989-4bde-9863-14c357f41ef5.png){:class="align-center"}  
 
