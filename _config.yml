@@ -278,7 +278,7 @@ defaults:
       layout: single
       author_profile: true
       sidebar:
-      nav: "main"
+        nav: "main"
       read_time: true
       comments: # true
       share: true
