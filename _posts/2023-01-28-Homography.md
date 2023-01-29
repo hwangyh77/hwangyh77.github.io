@@ -73,8 +73,8 @@ Homography는 8자유도를 가지며, 4쌍의 좌표를 통해 변환 관계를
 ### Homography에대해 좀더 자세히 보자  
 
 
-![image](https://user-images.githubusercontent.com/93988405/215251645-89d501b2-5b17-493b-8c33-50ed0290ff8d.png){:class="align-center"}  
+![image](https://user-images.githubusercontent.com/93988405/215251645-89d501b2-5b17-493b-8c33-50ed0290ff8d.png){: width="80%" height="80%"}{:class="align-center"}  
 
-![image](https://user-images.githubusercontent.com/93988405/215251523-95ac2af3-5cf9-44a1-896c-1f08a1f43562.png){:class="align-center"}   
+![image](https://user-images.githubusercontent.com/93988405/215251523-95ac2af3-5cf9-44a1-896c-1f08a1f43562.png){: width="80%" height="80%"}{:class="align-center"}   
 
-![image](https://user-images.githubusercontent.com/93988405/215251557-782b2732-89b4-4780-91b4-905b5a0478a9.png){:class="align-center"}  
+![image](https://user-images.githubusercontent.com/93988405/215251557-782b2732-89b4-4780-91b4-905b5a0478a9.png){: width="80%" height="80%"}{:class="align-center"}  
