@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Pix2Pix 코드 실습과 설명!!!"
 categories:
   - deeplearning
