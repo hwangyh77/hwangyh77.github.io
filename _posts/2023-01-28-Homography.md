@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Image Homography 공부"
 categories:
   - computervision
