@@ -20,7 +20,7 @@ categories:
 
 ![image](https://user-images.githubusercontent.com/93988405/219863799-ba76e160-9be4-40cc-9663-b0ec8e8bcb3f.png){:class="align-center"}  
 
-여기서, (X,Y,Z)는 월드 좌표계(world coordinate system) 상의 3D 점의 좌표, [R|t]는 월드 좌표계를 카메라 좌표계로 변환시키기 위한 회전/이동변환 행렬이며 A는 intrinsic camera matrix이다.
+여기서, (X,Y,Z)는 월드 좌표계(world coordinate system) 상의 3D 점의 좌표, [ R | t ]는 월드 좌표계를 카메라 좌표계로 변환시키기 위한 회전/이동변환 행렬이며 A는 intrinsic camera matrix이다.
 <mark style='background-color: #dcffe4'>A와 [R|t]를 합쳐서 camera matrix 또는 projection matrix라 부른다.</mark>  
 
 ![image](https://user-images.githubusercontent.com/93988405/219863862-10dcedf3-ea7f-4543-bd30-ad8d2e6d946d.png){:class="align-center"}  
