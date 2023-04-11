@@ -50,9 +50,9 @@ learning rate가 커질수록 w의 변화가 빨라진다.
 
 > <순방향 전파(Forward Pass)>  
 > ![image](https://user-images.githubusercontent.com/93988405/231022477-ce2d8760-096a-43b0-882f-d802d1ca5e55.png){:class="align-center"}  
-> 
+  
+  
 > <역전파 (Backpropagation)>  
->  
 > ![image](https://user-images.githubusercontent.com/93988405/231024027-d010d624-6627-4254-aaf9-5d6d39b8c7a1.png){:class="align-center"}  
 > ![image](https://user-images.githubusercontent.com/93988405/231024057-eeeed5b3-c69a-4279-8b4b-a1c89271158a.png){:class="align-center"}  
 
