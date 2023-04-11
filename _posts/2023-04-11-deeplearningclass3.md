@@ -53,8 +53,8 @@ learning rate가 커질수록 w의 변화가 빨라진다.
 > 
 > <역전파 Backpropagation>  
 >
->![image](https://user-images.githubusercontent.com/93988405/231022527-056e7ebb-4fc6-463d-af41-787a7568b340.png){:class="align-center"}  
->![image](https://user-images.githubusercontent.com/93988405/231022555-10c05221-e73a-4ea9-abc0-103632a4931a.png){:class="align-center"}  
+> ![image](https://user-images.githubusercontent.com/93988405/231022527-056e7ebb-4fc6-463d-af41-787a7568b340.png){:class="align-center"}  
+> ![image](https://user-images.githubusercontent.com/93988405/231022555-10c05221-e73a-4ea9-abc0-103632a4931a.png){:class="align-center"}  
 
 
 ## < Vanishing gradient problem >  
