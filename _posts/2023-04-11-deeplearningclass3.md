@@ -51,10 +51,10 @@ learning rate가 커질수록 w의 변화가 빨라진다.
 > <순방향 전파(Forward Pass)>  
 > ![image](https://user-images.githubusercontent.com/93988405/231022477-ce2d8760-096a-43b0-882f-d802d1ca5e55.png){:class="align-center"}  
 > 
-> <역전파 Backpropagation>  
->
-> ![image](https://user-images.githubusercontent.com/93988405/231022527-056e7ebb-4fc6-463d-af41-787a7568b340.png){:class="align-center"}  
-> ![image](https://user-images.githubusercontent.com/93988405/231022555-10c05221-e73a-4ea9-abc0-103632a4931a.png){:class="align-center"}  
+> <역전파 (Backpropagation)>  
+>  
+> ![image](https://user-images.githubusercontent.com/93988405/231024027-d010d624-6627-4254-aaf9-5d6d39b8c7a1.png){:class="align-center"}  
+> ![image](https://user-images.githubusercontent.com/93988405/231024057-eeeed5b3-c69a-4279-8b4b-a1c89271158a.png){:class="align-center"}  
 
 
 ## < Vanishing gradient problem >  
